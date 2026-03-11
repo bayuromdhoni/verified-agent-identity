@@ -10,7 +10,7 @@ on:
       agent_description:
         description: 'Bayu Romdhoni'
         required: true
-        default: 'AI Agent'
+        default: 'Bayu Romdhoni AI Agent'
 
 jobs:
   verify:
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "Nama_Agen_Kamu", "description": "AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "Bayu Romdhoni", "description": "Bayu Romdhoni AI Agent"}'
